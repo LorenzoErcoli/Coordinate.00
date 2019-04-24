@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+
+
+.logo_mini{ 
+}
+
+@media only screen and (max-height:500px){
+  .about{
+    font-size: 1.8vw;
+  }
+}
