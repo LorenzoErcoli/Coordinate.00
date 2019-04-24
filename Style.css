@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+body{
 
+}
 
-.logo_mini{ 
+.logo_mini{
+  margin-top: 40px;
+  max-height: 700px;
+}
+
+.home_pc{
+  margin-top: 2%;
+  width: 80%;
+}
+
+.entra_pc{
+  margin-top: 2%;
+  margin-bottom: 60px;
+  width: 14%;
 }
 
 @media only screen and (max-height:500px){
