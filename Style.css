@@ -28,7 +28,7 @@ body{
   margin-bottom: 60px;
   width: 14%;
 }
-.logo{
+.logo_grande{
   width: 250px;
 }
 
@@ -97,7 +97,7 @@ body{
   width: 20%;
 }
 
-.logo{
+.logo_grande{
   width: 300px;
 }
 .header_menu{
