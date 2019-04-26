@@ -77,6 +77,11 @@ body{
 
 @media only screen and (max-width:600px){
 
+.logo_mini{
+  margin-top: 40px;
+  max-height: 600px;
+}
+
 .home_pc{
   width: 0%
 }
@@ -110,4 +115,5 @@ body{
 .cat_img{
   width: 400px;
 }
+
 }
