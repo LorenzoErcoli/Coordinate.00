@@ -98,6 +98,16 @@ body{
 .header_menu{
   margin-top: 50px;
   width: 200px;
+}
 
+.foto_intro{
+ width:400px;
+}
+
+.name_img{
+  margin-left: -270px;
+}
+.cat_img{
+  width: 400px;
 }
 }
