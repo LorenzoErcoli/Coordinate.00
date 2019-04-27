@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
 
 }
@@ -33,7 +37,7 @@ body{
 }
 
 .progetto_menu, .foto_menu, .contatti_menu{
-  height: 40px;
+  height: 50px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
@@ -44,14 +48,30 @@ body{
   width: 800px;
 }
 
+.foto_text_pc{
+  margin-top: 50px;
+  width: 800px; 
+}
+
+.foto_text_cell{
+  width: 0%;
+}
+
+.insta_link{
+  margin-top: 50px;
+  margin-left: -300px;
+  height: 70px;
+}
+
 .box_catalog{
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .name_img{
   margin-left: -670px;
   height: 40px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .cat_img{
@@ -61,16 +81,31 @@ body{
 
 @media only screen and (max-width:900px){
 
+
 .foto_intro{
  width:500px;
 }
+.progetto_menu, .foto_menu, .contatti_menu{
+  height: 40px;
+}
+
+.foto_text_pc{
+  width: 550px; 
+}
+.insta_link{
+  margin-top: 50px;
+  margin-left: -150px;
+  height: 55px;
+}
 
 .name_img{
+  margin-top: 30px;
   margin-left: -370px;
 }
 .cat_img{
   width: 500px;
 }
+
 
 }
 
@@ -109,6 +144,15 @@ body{
  width:400px;
 }
 
+.foto_text_pc{
+  width: 450px; 
+}
+.insta_link{
+  margin-top: 50px;
+  margin-left: -150px;
+  height: 45px;
+}
+
 .name_img{
   margin-left: -270px;
 }
@@ -131,12 +175,27 @@ body{
 }
 
 .header_menu{
-  margin-top: 30px;
+  margin-top: 25px;
   width: 200px;
 }
 
 .foto_intro{
  width:350px;
+}
+
+.foto_text_pc{
+  width: 0%; 
+}
+
+.foto_text_cell{
+  margin-top: -30px;
+  width: 90%;
+}
+
+.insta_link{
+  margin-top: 30px;
+  margin-left: -10px;
+  height: 45px;
 }
 
 .name_img{

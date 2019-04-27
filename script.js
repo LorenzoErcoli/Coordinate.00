@@ -10,4 +10,3 @@ function onClick(element) {
 	captionText.innerHTML = element.alt;
 }
 
-
