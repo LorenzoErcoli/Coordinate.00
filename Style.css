@@ -5,7 +5,7 @@
 }
 
 html{
-  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -78,8 +78,20 @@ body{
   width: 800px;
 }
 
+.progetto_text_pc{
+  margin-top: 100px;
+  width: 900px
+}
 
-@media only screen and (max-width:900px){
+.progetto_text_cell{
+  width: 0%
+}
+
+.contatti_text{
+  height: 20px;
+}
+
+@media only screen and (max-width:920px){
 
 
 .foto_intro{
@@ -106,6 +118,10 @@ body{
   width: 500px;
 }
 
+.progetto_text_pc{
+  margin-top: 80px;
+  width: 650px
+}
 
 }
 
@@ -160,6 +176,14 @@ body{
   width: 400px;
 }
 
+.progetto_text_pc{
+  width: 0%;
+}
+
+.progetto_text_cell{
+  margin-top: -30px;
+  width: 90%
+
 }
 
 
@@ -205,5 +229,12 @@ body{
   width: 350px;
 }
 
+.progetto_text_pc{
+  width: 0%;
+}
+
+.progetto_text_cell{
+  margin-top: -30px;
+  width: 90%
 }
 }
