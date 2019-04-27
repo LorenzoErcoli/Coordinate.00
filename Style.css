@@ -5,7 +5,7 @@
 }
 
 html{
-  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
 }
 
 body{
@@ -175,7 +175,7 @@ body{
 }
 
 .header_menu{
-  margin-top: 25px;
+  margin-top: 0px;
   width: 200px;
 }
 
