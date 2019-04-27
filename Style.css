@@ -43,9 +43,10 @@ body{
   margin-top: 30px;
 }
 
+
 .foto_intro{
   margin-top: 50px;
-  width: 800px;
+  width: 400px;
 }
 
 .foto_text_pc{
@@ -134,6 +135,10 @@ body{
   margin-bottom: 200px; 
 }
 
+.foto_intro{
+  width: 300px;
+}
+
 .contatti_text{
   height: 80px;
 }
@@ -168,6 +173,10 @@ body{
 .header_menu{
   margin-top: 50px;
   width: 200px;
+}
+
+.box_foto_intro{
+margin-top: 30px;
 }
 
 .foto_intro{
@@ -219,8 +228,12 @@ body{
 }
 
 .header_menu{
-  margin-top: 0px;
+  margin-top: 60px;
   width: 200px;
+}
+
+.box_foto_intro{
+margin-top: 250px;
 }
 
 .foto_intro{
@@ -232,7 +245,7 @@ body{
 }
 
 .foto_text_cell{
-  margin-top: -30px;
+  margin-top: 30px;
   width: 90%;
 }
 
