@@ -33,6 +33,7 @@ body{
   width: 14%;
 }
 .logo{
+  margin-top: 15px;
   width: 250px;
 }
 
@@ -245,7 +246,7 @@ margin-top: 250px;
 }
 
 .foto_text_cell{
-  margin-top: 30px;
+  margin-top: 0px;
   width: 90%;
 }
 
