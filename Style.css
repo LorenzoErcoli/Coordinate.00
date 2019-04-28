@@ -47,6 +47,12 @@ a:hover{
   margin-right: 20px;
   margin-top: 30px;
 }
+
+.sotto{
+  width: 0px;
+}
+
+
 .box_foto_intro{
 width: 400px;
 }
@@ -58,7 +64,7 @@ width: 400px;
 }
 
 .foto_text_pc{
-  margin-top: 50px;
+  margin-top: 100px;
   width: 800px; 
 }
 
@@ -70,17 +76,25 @@ width: 400px;
   margin-top: 20px;
   margin-left: -300px;
   height: 52px;
+  margin-bottom: 50px;
 }
 
 .box_catalog{
-  margin-top: 80px;
+  margin-top: 20px;
+  margin-bottom: 120px;
 }
 
 .name_img{
-  margin-left: -670px;
-  height: 40px;
+  height: 60px;
+  margin-left: -620px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.coo_img{
+  height: 60px;
+  margin-top: 20px;
+  margin-right: -420px;
 }
 
 .cat_img{
@@ -88,7 +102,7 @@ width: 400px;
 }
 
 .progetto_text_pc{
-  margin-top: 100px;
+  margin-top: 20px;
   width: 900px
 }
 
@@ -195,16 +209,26 @@ filter:alpha(opacity=60);
   height: 37px;
 }
 
+.box_catalog{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
 .name_img{
-  margin-top: 30px;
+  height: 45px;
   margin-left: -370px;
+}
+
+.coo_img{
+  height: 45px;
+  margin-right: -200px;
 }
 .cat_img{
   width: 500px;
 }
 
 .progetto_text_pc{
-  margin-top: 80px;
+  margin-top: 20px;
   width: 650px
 }
 #box_contatti_text{
@@ -220,6 +244,8 @@ filter:alpha(opacity=60);
 .contatti_text{
   height: 80px;
 }
+
+
 }
 
 
@@ -270,9 +296,18 @@ margin-top: 30px;
   height: 30px;
 }
 
+
+
+
 .name_img{
   margin-left: -270px;
 }
+
+.coo_img{
+  height: 45px;
+  margin-right: -100px;
+}
+
 .cat_img{
   width: 400px;
 }
@@ -282,7 +317,7 @@ margin-top: 30px;
 }
 
 .progetto_text_cell{
-  margin-top: -30px;
+  margin-top: 20px;
   width: 90%
 }
 
@@ -310,8 +345,14 @@ margin-top: 30px;
   width: 200px;
 }
 
+.sotto{
+  width: 70px;
+  margin-top: 160px;
+}
+
+
 .box_foto_intro{
-margin-top: 250px;
+margin-top: 20px;
 }
 
 .box_foto_intro{
@@ -331,6 +372,10 @@ width: 350px;
   width: 90%;
 }
 
+.box_catalog{
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
 .vai_link{
   margin-top: 10px;
   margin-left: -10px;
@@ -339,6 +384,11 @@ width: 350px;
 
 .name_img{
   margin-left: -220px;
+}
+
+.coo_img{
+  height: 40px;
+  margin-right: -20px;
 }
 .cat_img{
   width: 350px;
@@ -349,7 +399,7 @@ width: 350px;
 }
 
 .progetto_text_cell{
-  margin-top: -30px;
+  margin-top: 20px;
   width: 90%
 }
 
