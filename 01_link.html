@@ -17,21 +17,18 @@
 	</div>
 
 	<div class="box_foto_intro">
-	<div><img class="foto_intro" src="02_foto/01_shoot.jpg"></div>
-	<div><img class="foto_intro" src="02_foto/02_shoot.jpg"></div>
-	<div><img class="foto_intro" src="02_foto/03_shoot.jpg"></div>
-	<div><img class="foto_intro" src="02_foto/04_shoot.jpg"></div>
+	<img id="myImg" class="foto_intro" alt=" " src="02_foto/01_shoot.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+	<img id="myImg" class="foto_intro" alt=" " src="02_foto/02_shoot.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+	<img id="myImg" class="foto_intro" alt=" " src="02_foto/03_shoot.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+	<img id="myImg" class="foto_intro" alt=" " src="02_foto/04_shoot.jpg" onclick="onClick(this)" class="modal-hover-opacity">
 	</div>
-
 
 	<div id="box_foto_text">
 		<div><img class="foto_text_pc" src="01_image/04_foto_text_pc.png"></div>
 	    <div><img class="foto_text_cell" src="01_image/04_foto_text_cell.png"></div>
 	</div>
 
-	<a href="https://www.instagram.com/coordinate.00" target="_blank">
-			<img class="insta_link" src="01_image/04_insta.png">
-		</a>
+	<a href="#box_contatti_text"><img class="vai_link" src="01_image/04_vai_contatti.png"></a>
 
 	<div class="box_catalog">
 		<div><img class="name_img" src="01_image/05_img_3031.png"></div>
@@ -65,11 +62,15 @@
 		<a href="https://www.instagram.com/lollo_ercoli/" target="_blank"><img class="contatti_text" src="01_image/08_contatti_lo_insta.png"></a>
 		
 	</div>
-
-
-
 	</center>
 
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" style="max-width:100%">
+    <div id="caption"></div>
+  </div>
+</div>
 
 
 <script type="text/javascript" src="script.js"></script>
